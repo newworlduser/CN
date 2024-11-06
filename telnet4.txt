@@ -1,0 +1,18 @@
+hostname
+
+hostname -I
+
+sudo apt-get install telnetd
+
+sudo /etc/init.d/openbsd-inetd restart
+
+telnet 192.168.53.5
+
+cd Desktop
+ls
+mkdir telnetname
+pwd
+
+hostname -I
+
+exit

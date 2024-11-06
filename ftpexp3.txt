@@ -1,0 +1,14 @@
+#gpt
+sudo apt-get install proftpd
+sudo nano /etc/proftpd/proftpd.conf
+sudo systemctl restart proftpd
+sudo apt-get install lftp
+#lftp -u <username> <your_hostname>
+ftp 127.0.0.1
+
+
+ls
+put <filename>
+get <filename>
+mkdir <directory_name>
+rm <filename>

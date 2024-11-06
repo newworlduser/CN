@@ -1,0 +1,10 @@
+sudo ip addr
+
+sudo ifconfig
+
+sudo ip addr add 192.168.1.104/24 dev enp3s0
+sudo ip address show enp3s0
+
+sudo ping 192.168.1.104
+
+netstat -rn

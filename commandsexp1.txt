@@ -1,0 +1,9 @@
+dig google.com any
+ping -c 10 www.google.com
+traceroute -m 10 www.google.com
+tracepath -n www.google.com
+nslookup www.google.com
+netstat
+host google.com
+ifconfig
+ip addr show
